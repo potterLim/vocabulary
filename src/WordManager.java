@@ -31,6 +31,8 @@ public class WordManager {
                 wordCRUD.listAll();
             } else if(menu == 4) {
                 wordCRUD.addWord();
+            } else {
+                System.out.println("잘못된 입력입니다.");
             }
         }
         System.out.println("프로그램 종료! 다음에 만나요~");
