@@ -103,7 +103,7 @@ public class WordCRUD implements ICRUD {
         System.out.print("=> 삭제할 번호 선택 : ");
         int id = s.nextInt();
         s.nextLine();
-        System.out.print("=> 정말로 삭제하실래요?(Y/n : ");
+        System.out.print("=> 정말로 삭제하실래요?(Y/n) : ");
         String ans = s.nextLine();
         if(ans.equalsIgnoreCase("y")) {
             list.remove((int)idlist.get(id-1));
