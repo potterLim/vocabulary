@@ -31,7 +31,12 @@ public class WordManager {
                 wordCRUD.listAll();
             } else if(menu == 4) {
                 wordCRUD.addWord();
-            } else {
+            } else if(menu == 1) {
+
+            } else if(menu == 5) {
+                wordCRUD.updateItem();
+            }
+            else {
                 System.out.println("잘못된 입력입니다.");
             }
         }
