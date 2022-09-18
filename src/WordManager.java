@@ -30,11 +30,11 @@ public class WordManager {
             if(menu == 1) {
                 wordCRUD.listAll();
             } else if(menu == 4) {
-                wordCRUD.addWord();
-            } else if(menu == 1) {
-
+                wordCRUD.addItem();
             } else if(menu == 5) {
                 wordCRUD.updateItem();
+            } else if(menu == 6) {
+                wordCRUD.deleteItem();
             }
             else {
                 System.out.println("잘못된 입력입니다.");
