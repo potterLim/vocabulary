@@ -36,6 +36,8 @@ public class WordManager {
                 wordCRUD.updateItem();
             } else if(menu == 6) {
                 wordCRUD.deleteItem();
+            } else if(menu ==7) {
+                wordCRUD.saveFile();
             }
             else {
                 System.out.println("잘못된 입력입니다.");
